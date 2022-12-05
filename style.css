@@ -1,6 +1,7 @@
 .containe {
     display: flex;
     flex-direction: column;
+    font-family: 'Poppins', sans-serif;
 }
 
 .main{
@@ -11,14 +12,13 @@
     margin: 0 auto;
     font-size: 30px;
     padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 .main-text {
-    width: 75%;
-   padding-left: 60px;
-    margin: 0 auto;
+    text-align: center;
     color: gray;
-    padding-top: 10px;
+    padding-bottom: 60px;
 }
 
 .block-two {
@@ -26,7 +26,6 @@
     flex-wrap: wrap;
     width: 75%;
     padding-left: 13%;
-    padding-top: 40px;
 }
 
 .one{
@@ -35,6 +34,7 @@
     flex-direction: column;
     align-items: center;
     padding-top: 20px;
+    padding-bottom: 40px;
 }
 
 .one-name {
@@ -45,7 +45,7 @@
 .one-text {
     padding-top: 20px;
     width: 70%;
-    align-items: center;
+    text-align: center;
     color: gray;
 }
 
